@@ -1,0 +1,23 @@
+services:
+  upkeep-status:
+    build: .
+    container_name: upkeep-status
+    restart: unless-stopped
+    ports:
+      - "5342:5342"
+    environment:
+      - PORT=5342
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:-change-me}
+      - DB_PATH=/app/data/upkeep.db
+      - SITE_NAME=${SITE_NAME:-Upkeep Status}
+      - BASE_URL=${BASE_URL:-}
+      - SMTP_HOST=${SMTP_HOST:-}
+      - SMTP_PORT=${SMTP_PORT:-587}
+      - SMTP_USER=${SMTP_USER:-}
+      - SMTP_PASS=${SMTP_PASS:-}
+      - SMTP_FROM=${SMTP_FROM:-}
+    volumes:
+      - upkeep-data:/app/data
+
+volumes:
+  upkeep-data:
