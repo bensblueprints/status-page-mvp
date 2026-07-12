@@ -76,7 +76,7 @@ Pingcron alert webhooks (`{"event":"down"}` / `{"event":"up"}`) are understood n
 ## ☕ Skip the setup — get the 1-click installer
 
 Want the packaged version with everything pre-wired? Grab it on Whop:
-**[https://whop.com/onetime-suite](https://whop.com/onetime-suite)**
+**[https://whop.com/benjisaiempire/upkeepstatus](https://whop.com/benjisaiempire/upkeepstatus)**
 
 ## Tech stack
 
