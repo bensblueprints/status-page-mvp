@@ -1,5 +1,9 @@
 # Upkeep Status 🟢
 
+## Demo
+
+VIDEO-PLACEHOLDER
+
 ![MIT](https://img.shields.io/badge/license-MIT-green) ![Node](https://img.shields.io/badge/node-%3E%3D20-brightgreen)
 
 **The public status page you own forever.** Components, incident timelines, scheduled maintenance, email subscribers, RSS + JSON API — self-hosted on a $5 VPS. Pay **$29 once** instead of $29/month for Statuspage.io.
